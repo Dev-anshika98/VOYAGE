@@ -1,19 +1,15 @@
 import React from 'react'
 import '../styles/home.css'
-import { Container, Row, Col, CardSubtitle } from 'reactstrap'
-import heroImg from '../assets/images/hero-img01.jpg'
+import { Container, Row, Col } from 'reactstrap'
 import heroImg02 from '../assets/images/hero-img02.jpg'
 import heroVideo from '../assets/images/video3.mp4'
 import heroVideo2 from '../assets/images/video1.mp4'
 import worldImg from '../assets/images/world.png'
-import experienceImg from '../assets/images/experience.jpg'
-
 import Subtitle from './../shared/subtitle'
 import SearchBar from './../shared/SearchBar'
 import ServiceList from '../services/ServiceList'
 import FeaturedTourList from '../components/Featured-tours/FeaturedTourList'
 import MasonryImagesGallery from '../components/Image-gallery/MasonryImagesGallery'
-import Testimonials from '../components/Testimonial/Testimonials'
 import NewsLetter from '../shared/Newsletter'
 import Trip from '../assets/images/Trip2.gif'
 const Home = () => {
@@ -88,8 +84,11 @@ const Home = () => {
                   <div className="experience__content">
                      <Subtitle subtitle={'Experience'} />
                      <h2>With our all experience <br /> we will serve you</h2>
-                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        <br /> Quas aliquam, hic tempora inventore suscipit unde. </p>
+                     <p>Efficient booking with real-time availability for monuments and museums.
+No more waiting in long queues; a hassle-free experience
+We partner with premier tourist spots, museums, and attractions like trekking, sports, and water parks to provide a wide array of amazing experiences.
+
+                        <br /> Premium services like Crowd Tracking and AR monuments visualization</p>
                   </div>
 
                   <div className="counter__wrapper d-flex align-items-center gap-5">
